@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Storage</title>
+</head>
+<body>
+    <h1>Hello World !</h1>
+    <script>
+        const judul = document.querySelector('h1');
+        
+        let nama = sessionStorage.getItem('nama');
+        
+        if(!nama){
+            nama = prompt('masukkan nama anda: ');
+            sessionStorage.setItem('nama', nama);
+        }
+
+        judul.innerHTML = `Halo, ${nama}`;
+
+    </script>
+</body>
+</html>

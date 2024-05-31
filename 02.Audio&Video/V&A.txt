@@ -1,0 +1,39 @@
+->Audio
+->controls->agar audio dapat muncul di sebuah browser
+->loop->untuk melakukan looping lagu jika sudah berakhir
+->muted->untuk membuat lagu menjadi muted
+->autoplay-> biasanya untuk membuat lagu menjadi autoplay tapi sekarang browser tidak dapat menggunakan fiture autoplay ini lagi
+
+->Format<-
+->didalam element Audio & Video bisa menggunakan element <source>
+
+->Video
+->controls->agar video dapat memiliki fitur untuk mengkontrolnya
+->loop->mengulang video jika sudah selesai
+->poster->untuk awalan video jika video belum ditekan atau video tidak ditemukan akan menghasilkan gambar yang diminta oleh si sistem
+->autoplay->autoplay dapat dijalankan tidak seperti audio
+->muted->untuk mematikan suara yang ada pada video
+->width->untuk mengatur width dari video
+->height->untuk mengatur height atau ketinggian dari Video
+
+
+->Video-bg
+->z-index digunakan untuk video mundur satu kali dan memberikan hak layar kepada class hero
+->transparent-bg->rgba()
+
+->track
+->controls->untuk mengontrol video kita
+->src->untuk mengambil sumber Subtitle atau Captions
+->kind->untuk menjelaskan file src yang diambil->utk subtitle->isinya captions
+->title->untuk judul title video yang akan kita pakai
+->scrlang->digunakan untuk menjeleskan kode bahasa yang dipakai dalam subtitle
+
+->VTT folder(subtitle)
+->di awal / dipaling atas file tulis kata (WEBVTT)
+->menggunakan format titik ->tidak boleh menunjukkan waktu dengan koma->dapat mengganti koma dengan->block koma dan tekan CTRL + F2
+->format->dapat menggunakan downsub.com
+->step->format->download file src->save dalam bentuk vtt->save->allFiles
+
+
+
+

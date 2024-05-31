@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio & Video</title>
+    <style>
+
+        body,h1 *{
+            margin: 0;
+            padding: 0;
+        }
+        .hero{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            /* background-color: rgba(0, 0, 0, 0.3); */
+            background-image: linear-gradient(to right,rgba(0,242,96,0.3),rgba(5,117,230,0.3));
+            color: rgba(255,255,255,0.8);
+            font-size: 3em;
+            position: relative;
+            min-height: 100vh;
+
+        }
+        .video-bg{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            min-height: 100%;
+            min-width: 100%;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="hero">
+        <h1>Welcome Developer !</h1>
+        <video class="video-bg" src="video/forest.webm"  autoplay loop muted></video>
+    </div>
+    <div class="audio">
+        <!-- <audio src="chill.mp3" controls></audio> -->
+        <figure>
+            <figcaption>
+                Dengarkan "Cozy-Chill"
+            </figcaption>
+            <audio controls loop>
+            <source src="audio/chill9.ogg" type="audio/ogg">
+            <source src="audio/chill9.mp3" type="audio/mpeg">
+            Browser Tidak Mendukung <code>Audio</code>
+        </audio>
+        </figure>
+    </div>
+    <div class="video">
+        <!-- <video src="video/forest.mp4" width="400" controls ></video> -->
+        <figure>
+            <figcaption>
+                Tree Scenery
+            </figcaption>
+            <video width="400" poster="video/forest.jpg" loop autoplay muted>
+                <source src="video/forest.webm" type="video/webm">
+                <source src="video/forest.mp4" type="video/mp4">
+                Browser Tidak mendukung tag <code>Video</code>
+            </video>
+        </figure>
+    </div>
+
+   
+</body>
+</html>

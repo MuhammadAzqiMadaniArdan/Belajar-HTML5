@@ -1,0 +1,28 @@
+<svg class="angin" width="300" height="300" viewBox="0 0 1476 1476" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g filter="url(#filter0_d_602_31)">
+            <rect x="556" y="22" width="300" height="584" fill="#D9D9D9"/>
+            <rect x="556" y="844" width="300" height="584" fill="#D9D9D9"/>
+            <path d="M828 634H1412V934H828V634Z" fill="#D9D9D9"/>
+            <ellipse cx="732" cy="740.5" rx="240" ry="193.5" fill="#7D5229"/>
+            <path d="M4 634H588V934H4V634Z" fill="#D9D9D9"/>
+            <rect x="588" width="300" height="584" fill="#E28800"/>
+            <rect x="588" y="884" width="300" height="584" fill="#E28800"/>
+            <rect x="4" y="584" width="584" height="300" fill="#E28800"/>
+            <rect x="888" y="584" width="584" height="300" fill="#E28800"/>
+            <ellipse cx="732" cy="733.5" rx="166" ry="168.5" fill="#A5652A"/>
+            </g>
+            <line x1="727" y1="884" x2="727" y2="565" stroke="#CF9F73" stroke-width="22"/>
+            <path d="M898.014 725.5L564 725.5" stroke="#CF9F73" stroke-width="22"/>
+            <defs>
+            <filter id="filter0_d_602_31" x="0" y="0" width="1476" height="1476" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dy="4"/>
+            <feGaussianBlur stdDeviation="2"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_602_31"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_602_31" result="shape"/>
+            </filter>
+            </defs>
+            </svg>

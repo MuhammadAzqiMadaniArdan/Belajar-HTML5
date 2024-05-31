@@ -1,0 +1,66 @@
+<!-- Catatan -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture </title>
+</head>
+<style>
+    .container{
+        font-family: sans-serif;
+        min-height:100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.125em;
+        line-height: 1.6;
+        color:#333;
+        padding: 2em;
+    }
+    .hero{
+        display: grid;
+        grid-gap: 2em;
+        align-items:center;
+    }
+
+    img{
+        max-width:100%;
+        height:auto;
+
+    }
+    @media(min-width: 960px){
+        .hero{
+            grid-template-columns: repeat(2,1fr);
+        }
+    }
+</style>
+<body>
+<!-- picture Elements -->
+<div class="container">
+<div class="hero">
+    <div class="hero-text">
+    <h1>Picture Elements</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero nulla, soluta est id esse eos quae reprehenderit labore nihil, quod saepe praesentium alias sed voluptatem, quis hic quos repellat et.</p>
+</div>
+<picture>
+    <source media="(min-width:960px)" srcset="img/kuren-high.jpg" sizes="50vh">
+    <source media="(min-width:600px)" srcset="img/kuren-medium.jpg" sizes="50vh">
+    <img src="img/kuren-small.jpg" alt="Kucing Oren">
+</picture>
+</div>
+</div>
+<div class="figure">
+    <h1>Figure Elements</h1>
+    <img src="https://www.purina.co.id/sites/default/files/2021-12/Double-signpost-desktop-cat-care.jpg" alt="kucing oren Digendong Orang">
+    <figcaption>Kucing Oren Digendong Orang</figcaption>
+</div>
+
+    <div class="img">
+    <h1 style="margin-bottom: 1500px;">Image Elements</h1>
+
+    <img src="https://www.purina.co.id/sites/default/files/2021-12/Double-signpost-desktop-cat-care.jpg" title="coba" alt="kucing oren" srcset="https://www.purina.co.id/sites/default/files/2021-12/Double-signpost-desktop-cat-care.jpg 500w,https://www.purina.co.id/sites/default/files/2021-12/Double-signpost-desktop-cat-care.jpg 750w,https://www.purina.co.id/sites/default/files/2021-12/Double-signpost-desktop-cat-care.jpg 1000w" sizes="(min-width:1200px) 50vw" loading="lazy">
+</div>
+
+</body>
+</html>

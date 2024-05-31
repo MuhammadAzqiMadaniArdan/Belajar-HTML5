@@ -1,0 +1,56 @@
+SVG
+1.Dapat membuat gambar yang tidak akan hilang kualitasnya meskipun diperbesar
+
+2.Link reference : https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/viewBox
+
+3.viewBox (jendela)
+->jendela svg tag dalam svg akan menjauh atau mendekat
+viewBox = ("x minimal , y minimal, width, height")
+Ket :
+x -> posisi Horizontal 
+contoh :
+x = 50
+maka jendela akan berpindah ke samping
+y -> posisi vertical
+width -> besar lebar jendela
+height -> seberapa tinggi jendela
+
+4.Width dan height dari svg adalah view port
+
+5.Dalam React 
+fill->background warna svg rect,circle atau yang lainnya
+
+6.Rect
+->width = ukuran
+->height = tinggi
+->x = posisi Horizontal
+->y = posisi Vertical
+
+7.Circle
+->r = radius
+->cx = posisi hoeizontal
+->cy = Posisi vertical
+
+8.Path
+->d(draw) :
+->stroke :
+->MoveTo :
+->LineTo :
+->Cubic :
+->Quadrine :
+
+9.SVG Resources
+->blobmaker.app
+->shapedivider.app
+->svgrepo.app
+->simpleicons.org
+
+10.Figma
+->SVG dapat dicopy melalui Figma
+->Buat File
+->Buat Bentuk 
+->Copy sebagai SVg
+
+11.Image
+->Bisa diupload menggunakan Image
+contoh : <img src="files.svg" >

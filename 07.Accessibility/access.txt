@@ -1,0 +1,43 @@
+1.Tips
+->Buat Struktur DOM yang 'masuk akal'
+->Gunakan semantic element
+->interactive control
+->memberi label pada semua kontrol dan gambar
+->manajemen fokus yang intuitif
+->diakses penuh hanya dengan keyboard
+->tambahkan Aria jika dibutuhkan
+
+2.Interactive control
+->Gunakan elemen yang sesuai, janagna gunakan div atau span
+=>Screen reader tidak menggangap div/span
+
+3.Labelling
+->Selalu beri label pada control
+
+4.Labelling gambar
+->menggunakan alt pada gambar
+
+5.Pengaturan Fokus
+->penggunaan keyboard melakuakn navigasi dengan memindahkan fokus melalui DOM
+->sebisa mungkin gunakan elemen interactive
+->jika tidak, gunakan tabindex agar elemen custom menjadi focusable
+->Elemen kontrol yang custom harus merespon tombol seperti enter dan spasi
+
+6.tabindex
+->auto fokus ke tab atau element interaktif yang mau digunakan
+contoh 
+<div tabindex="1"></div>
+->auto fokus pertama
+
+<div tabindex="0"></div>
+->auto fokus mengikuti antrian biasa
+
+
+7.Role
+->role untuk mengubah peran suatu element
+
+8.Menggunakan LightHouse sebagai pengecekan accessibility
+->inspect-> >> -> LightHouse ->analyze
+
+9.Contras
+->inspect ->ke element ->style -> color dari styling -> contrasration -> auto contras dengan menekan barier

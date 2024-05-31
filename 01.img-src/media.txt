@@ -1,0 +1,15 @@
+catatan
+1.Img
+src->dari source
+alt->(alternative text)textual gambar digunakan ketika gambar tdidak ditampilkan->berfungsi untuk screen reader->bisa ditulis link gambar dari web.
+title->memnunculkan tulisan di tengah gambar
+srcset->mengukur ukuran gambar atau image yang tesedia
+sizes->dapat mengcustom size atau ukuran image dalam beberapa dimensi yang berbeda
+loading->lazy(gambar akan muncul atau disimpan ketika user sudah sampai ke page gambar tersebut)->eager(default)
+
+2.Figure
+->bisa simpen gambar
+->figcaption->untuk caption dari gambar tersebut apakah sebuah materi atau copyright dari suatu gambar
+
+
+

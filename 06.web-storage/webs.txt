@@ -1,0 +1,43 @@
+1.
+->local storage
+->session storage
+
+2.Digunakan Untuk
+->prefensi User
+=>dark dan light mode
+->setting & configuration
+->score & leaderboards pada game
+untuk menaruh score
+->posisi viseo / audio terakhir
+=>terakhir sudah menonton atau mendengar sampai menit ke berapa
+
+3.Jangan Digunakan untuk
+->data sensitif
+->autentikasi
+
+4.Properties
+->SetItem(key,value)
+=>menyimpan pasangan key/value
+
+->getItem(key)
+=>mengambil value berdasarkan key.
+
+->removeItem(key)
+=>menghapus nilai pasangan key/value.
+
+->clear()
+=>menghapus semua isi storage
+
+->key(index)
+=>mengambil nilai key berdasarkan index
+
+->length
+=>mengetahui jumlah nilai di dalam storage
+
+5.Contoh Penggunaan
+->localStorage.setItem("name","Sandhika");
+->localStorage.getItem("name)
+
+6.Console Application
+Pada gambar X di console atas berarti = hapus spesfic key dan value
+Pada gambar barrier 🚫 berart = hapus semua key dan value

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility</title>
+    <style>
+        body{
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello Dev!</h1>
+    <label for="nama">Nama :</label>
+    <input type="text" name="nama" id="nama">
+
+    <label for="jurusan">Jurusan :</label>
+    <select name="jurusan" id="jurusan">
+        <option value="if">Teknik Informatika</option>
+        <option value="ti">Teknik Industri</option>
+    </select>
+
+    <button style="margin-bottom: 10px;" onclick="showalert('Halo')">Kirim!</button>
+
+    <div tabindex="0" onclick="alert('halo');" role="button" id="button1">Tombol 1</div>
+    <script>
+        const showalert = (text) => alert(text);
+        const button1 = document.querySelector('#button1');
+        button1.addEventListener('keyup', function (e){
+            if(e.keyCode == 32 || e.keyCode == 13){
+                showalert('Halo');
+            }
+        });
+    </script>
+</body>
+</html>

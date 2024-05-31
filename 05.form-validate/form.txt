@@ -1,0 +1,86 @@
+FORM VALIDATION
+1.Jenis
+->Client Side
+->Server Side
+
+2.Built-in 
+->Input types
+->Attributes
+
+3.Input types
+->email
+->tel
+->url
+->number
+->range
+->datetime picker
+->color picker
+
+4.GEt
+url
+
+5.POst
+bukan url
+
+6.AutoComplete (input / form)
+->menghilangkan history bekas input sebelumnya
+
+7.AutoFocus
+->membuat cursor terfocus kepada input 
+
+8.required
+->mengecek apakah field input sudah terisi atau belum
+
+9.minlength & maxlength
+->menentukan dari panjang karakter
+->berapa banyak karakter yang boleh diinput
+
+10.min & max
+->menentukan angka yang boleh diinput minimal berapa dan maximal berapa
+
+11.step
+->penambahan setiap klik tanda panah 
+->ingin menambah berapa dari setiap nilai
+contoh : 
+min 10 max 100 step 10 maka hanya bisa diisi kelipatan 10
+
+12.pattern
+->menentukan pola dari regex (regular expression)
+
+13.regex (regular expression)
+->contoh
+^([1-9])[0-9]{4}$
+ket :
+^([1-9]) -> mulai dari awal baca angka pertama harus dari 1 - 9
+[0-9] -> selanjutnya isi  0 - 9 
+{4} -> dan diulangi sampai 4 kali sampai selesai
+
+->contoh
+NO HP Indonesia
+(\+62|62|0)8[1-9][0-9]{6,9}$
+ket:
+(\+62|62|0) -> boleh diawali dengan +62,62 atau 0
+8 -> angka berikutnya harus 8
+[1-9] -> Berikutnya harus angka 1 - 9
+[0-9] -> Berikutnya harus angka 0 -9
+{6,9} -> minimal 6 karakter maksimal 9 karakter
+
+14.CSS VALIDATION pseudo-class
+->:required
+=>ketika input terisi berikan style
+->:invalid
+=>ketika input tidak valid maka berikan style
+->:valid
+=>ketika input valid maka berikan style
+
+15.Javascript custom VALIDATION
+->oninvalid
+=>Ketika Input Invalid maka berikan Peringatan dengan setCustomValidity
+->setCustomValidity()
+=>Ketika Input Invalid atau input sudah diisi maka berikan Peringatan
+contoh:
+oninvalid="this.setCustomValidity('ini harus diisi!')"
+->ketika input invalid maka berikan peringatan dengan teks yang sudah di custom pada paramete setCustomValidity
+
+16.novalidate (form)
+->jika ingin menghilangkan seluruh validasi dalam input form maka menggunakan atribut novalidate pada form
